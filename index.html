@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="light only" />
+		<title>CEBDS - Relatório Interativo</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="./css/aos.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<section id="intro" class="index">
+			<div class="container-fluid">
+				<nav class="menu-desktop">
+					<img src="./images/cebds.png" class="logo" alt="Logo CEBDS" />
+					<div class="align-menu-btn">
+						<ul>
+							<li><a href="index.html" class="active">Início</a></li>
+							<li><a href="dinamic.html">Dinâmica Geoespacial</a></li>
+							<li><a href="deforastation.html">Combate ao Desmatamento</a></li>
+							<li><a href="estrategy.html">Estratégias e Alternativas</a></li>
+						</ul>
+						<a
+							href="./CEBDS_CadeiasAgroalimentares.pdf"
+							download
+							target="_blank"
+							class="dowload-btn"
+							>Baixar o estudo
+							<span class="outline-button__lines">
+								<span
+									class="outline-button__line outline-button__line--horizontal outline-button__line--top"
+								></span>
+								<span
+									class="outline-button__line outline-button__line--vertical outline-button__line--right"
+								></span>
+								<span
+									class="outline-button__line outline-button__line--horizontal outline-button__line--bottom"
+								></span>
+								<span
+									class="outline-button__line outline-button__line--vertical outline-button__line--left"
+								></span>
+							</span>
+						</a>
+					</div>
+				</nav>
+				<div class="menu-mobile menu-index">
+					<nav class="navbar">
+						<img src="./images/cebds.png" class="logo" alt="CEBDS" />
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<img src="images/hamb.svg" alt="Menu hamburguer" class="open" />
+							<img
+								src="images/close-hamb.svg"
+								alt="Fechar menu hamburguer"
+								class="close"
+							/>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<img src="./images/cebds.png" class="logo" alt="CEBDS" />
+
+							<ul>
+								<li><a href="index.html" class="active">Início</a></li>
+								<li>
+									<a href="dinamic.html">Dinâmica Geoespacial</a>
+								</li>
+								<li>
+									<a href="deforastation.html">Combate ao Desmatamento</a>
+								</li>
+								<li>
+									<a href="estrategy.html">Estratégias e Alternativas</a>
+								</li>
+							</ul>
+
+							<a
+								href="./CEBDS_CadeiasAgroalimentares.pdf"
+								download
+								target="_blank"
+								class="dowload-btn"
+								>Baixar o estudo</a
+							>
+						</div>
+					</nav>
+				</div>
+				<h1>
+					As cadeias <br />agroalimentares <br />e os desafios de combate
+					<br />ao desmatamento
+				</h1>
+				<p class="subtitle">
+					Como os diferentes elos de algumas cadeias mais expostas a este
+					problema tem buscado desacoplar o desmatamento de suas cadeias de
+					fornecimento.
+				</p>
+				<div class="align-circle-arrow desktop">
+					<svg>
+						<linearGradient id="linear-gradient">
+							<stop offset="20%" stop-color="rgba(255, 255, 255, 0)" />
+							<stop offset="100%" stop-color="rgba(255, 255, 255, 1)" />
+						</linearGradient>
+						<circle class="circle" cx="50%" cy="50%" r="40"></circle>
+					</svg>
+					<img
+						src="./images/arrow-intro.svg"
+						class="arrow-down"
+						alt="Seta para baixo"
+					/>
+				</div>
+			</div>
+			<div class="overlay"></div>
+		</section>
+
+		<section id="key-messages">
+			<div class="container-fluid">
+				<div class="align-title-arrows">
+					<h3>Mensagens Chave</h3>
+					<div class="align-bts-carousel">
+						<div id="prev-slide" class="carousel-control">
+							<img src="./images/arrow-prev.svg" alt="" />
+						</div>
+						<div id="next-slide" class="carousel-control">
+							<img src="./images/arrow-next.svg" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="owl-carousel owl-theme messages-slide">
+					<div class="item">
+						<div class="message-card">
+							<img src="./images/map.svg" alt="Icone mapa" />
+							<p>
+								Mesmo com o grande aumento de produtividade observado nas
+								últimas décadas, a incorporação de terras para a produção
+								agrícola ainda ocorre no Brasil, levando a constatação de que os
+								processos de expansão de área e de intensificação produtiva
+								ocorrem de forma simultânea no território.
+							</p>
+							<button class="read-more-message responsive-desktop-1600">
+								Ler mais
+							</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="message-card">
+							<img src="./images/worker.svg" alt="Icone trabalhador" />
+							<p>
+								Tanto a agricultura não familiar quanto à agricultura familiar
+								apresenta expansão. O nível de interferência pública deve ser
+								ajustado para que a produção agropecuária continue tendo como a
+								base de seu desenvolvimento a incorporação de novas tecnologias
+								(ganhos de produtividade e eficiência) e sua concentração nas
+								regiões em que estes ganhos tecnológicos possam surtir maior
+								efeito. Ao longo deste caminho, os efeitos negativos sejam
+								controlados ou compensados de maneira eficiente por medida como
+								incentivos ou subsídios, tributação ou regulamentação.
+							</p>
+							<button class="read-more-message">Ler mais</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="message-card">
+							<img src="./images/world.svg" alt="Icone mundo" />
+							<p>
+								O potencial de medidas e estratégias internacionais para regular
+								cadeias de fornecimento, sobretudo de commodities, para ajudar a
+								reduzir o desmatamento tropical é complementar, mas não
+								suficiente. O peso do mercado doméstico é grande.
+							</p>
+							<button class="read-more-message responsive-desktop-1500">
+								Ler mais
+							</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="message-card">
+							<img src="./images/political.svg" alt="Icone politica " />
+							<p>
+								É necessário, por um lado aumentar a governança territorial,
+								retomando as políticas de comando e controle e eliminando a
+								ilegalidade. Por outro lado, e paralelamente, é necessário
+								retomar e implementar as políticas públicas e privadas que
+								recolocarão o Brasil na trilha do desenvolvimento sustentável.
+							</p>
+							<button class="read-more-message responsive-desktop-1700">
+								Ler mais
+							</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="message-card">
+							<img src="./images/bag.svg" alt="Icone mala" />
+							<p>
+								As iniciativas e estratégias empresariais têm experimentado
+								diferentes modelos e abordagens interessantes. Alcançar e mudar
+								o comportamento dos produtores é essencial. Uma maior interação
+								dos elos das cadeias (incluindo o setor de insumos e financeiro)
+								pode potencializar os resultados e possibilitar ganho de escala,
+								sem o qual, o problema do desmatamento não será eliminado e
+								benefícios ao clima não serão alcançados.
+							</p>
+							<button class="read-more-message">Ler mais</button>
+						</div>
+					</div>
+				</div>
+				<span class="line-division"></span>
+			</div>
+		</section>
+
+		<section class="analysis-section">
+			<div class="container">
+				<h3>
+					A análise geoespacial realizada por este estudo gerou três importantes
+					constatações.
+				</h3>
+				<p>
+					A primeira delas diz respeito à não relação entre os efeitos de Jevons
+					(aumento de produtividade com aumento de área) e de Borlaug (aumento
+					de produtividade sem aumento da área, ou seja, com economia de área),
+					e o perfil de produtores rurais (Agricultura Familiar e Não-Familiar).
+					Nas mesorregiões que concentram 80% da produção (alta eficiência
+					produtiva), há a predominância do efeito Jevons. Em outros termos,
+					existe o aumento de produtividade, mas com a expansão da produção
+					sobre outras áreas. No entanto, neste estudo, não foi possível
+					identificar se a expansão foi sobre áreas de vegetação nativa,
+					pastagens degradadas ou substituição de culturas.
+				</p>
+				<p>
+					A segunda constatação está relacionada ao efeito de realocação de
+					algumas culturas no território, especialmente as 'staple crops'. Há
+					uma tendência de que áreas com culturas que apresentam demanda estável
+					sejam transferidas para locais cujo aumento da produção seja mais
+					rentável. Um exemplo é o feijão, que se deslocou do Sul do país para o
+					Centro-Oeste, onde a produtividade é maior, tornando o produto mais
+					competitivo. Ao contrário da soja, que possui demanda infinita, e na
+					qual se observa o efeito Jevons.
+				</p>
+				<p>
+					A terceira, e última diz respeito à pecuária bovina, que possui uma
+					dinâmica de expansão bem particular. Ela se intensifica apenas em
+					áreas consolidadas, mas se extensifica em regiões de fronteira. O
+					efeito Jevons não é observado porque a pecuária tem essa
+					característica de extensificação sem o aumento da produtividade. O
+					efeito estável é observado porque ainda há terra para a expansão. No
+					entanto, a tendência é que com o passar do tempo o efeito Borlaug seja
+					observado.
+				</p>
+				<a class="see-more-btn" style="margin-bottom: 0" href="./dinamic.html"
+					>Clique para ver mais <img src="./images/arrow.svg" alt="Icone seta"
+				/></a>
+			</div>
+
+			<div id="culture-container" class="map-animation-container">
+				<div class="container-fluid">
+					<span class="title-map">MENSAGENS CHAVE POR CULTURA AGRÍCOLA</span>
+				</div>
+				<div class="graphic-container">
+					<img
+						class="image-map map1 is-visible"
+						src="./images/mapa-opacity.png"
+						alt=""
+					/>
+					<img class="image-map map2" src="./images/mapa1.png" alt="" />
+					<img class="image-map map3" src="./images/mapa-opacity.png" alt="" />
+					<img class="image-map map4" src="./images/mapa-2.png" alt="" />
+					<img class="image-map map5" src="./images/mapa-opacity.png" alt="" />
+					<img class="image-map map6" src="./images/mapa-3.png" alt="" />
+				</div>
+				<div id="map-content" class="align-text-center">
+					<p class="text-map-1">
+						No caso da soja, o efeito Jevons, que envolve aumento da
+						produtividade com a expansão das áreas, ocorreu sobre a maior parte
+						do país, sobretudo nas áreas de fronteira entre Cerrado e Amazônia,
+						e nas regiões Centro-Sul.
+					</p>
+					<p class="text-map-2">
+						No caso do café, o efeito Bourlag é mais presente. Mas, ao
+						considerarmos as mesorregiões mais produtoras as dinâmicas se
+						misturam, com expansão nas porções do sul mineiro, mas com economia
+						de áreas nas regiões entre o oeste mineiro e o Espírito Santo.
+					</p>
+					<p class="text-map-3">
+						Na bovinocultura, a dinâmica entre produtividade e expansão se
+						manteve estável na maior parte do Brasil. Contudo, vale destacar o
+						efeito inesperado, pois em áreas já consolidadas e com maior
+						intensificação, ocorreu a economia de terras (efeito Bourlag).
+						Enquanto nas regiões de fronteira, onde a pecuária é extensiva,
+						houve a expansão das áreas (efeito Jevons).
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="background-image-container deforastation"></div>
+
+		<section class="analysis-section">
+			<div class="container">
+				<h2>O combate ao desmatamento: atores, regulações e tendências</h2>
+				<p>
+					Os elos finais das cadeias, representados pelos processadores e
+					distribuidores, têm maior visibilidade por sua associação mais direta
+					com o consumidor, especialmente os que possuem relações comerciais com
+					o mercado europeu, considerado mais exigente no cumprimento dos
+					quesitos socioambientais.
+				</p>
+				<p>
+					As regulações dos mercados internacionais são importantes para mover
+					os elos das cadeias a gerar a transformação no campo, contudo estas
+					regulações não são suficientes porque o mercado doméstico,
+					especialmente para a carne bovina, é grande.
+				</p>
+				<p>
+					A entrada dos mercados asiáticos, especialmente a China, é fundamental
+					para motivar a introdução de novas regras de transação devido aos
+					grandes volumes de soja e carne consumidos por este país.
+				</p>
+				<p>
+					O fator que mais contribui com a dificuldade de multiplicar as boas
+					experiências reside na baixa articulação dos diversos elos das
+					cadeias, visando a integração e difusão das ações que podem ser postas
+					em vários níveis, além do controle do desmatamento, como por exemplo,
+					incentivos para adoção de boas práticas redutoras de carbono e metano,
+					a restauração de pastagens degradadas, formação de arranjos locais
+					para reinserção de produtores bloqueados, etc.
+				</p>
+				<a class="see-more-btn" href="./deforastation.html"
+					>Clique para ver mais <img src="./images/arrow.svg" alt="Icone seta"
+				/></a>
+			</div>
+		</section>
+
+		<section class="home-gallery">
+			<div class="owl-carousel owl-theme gallery-top">
+				<div class="item">
+					<img src="./images/galeria/top1.png" />
+				</div>
+				<div class="item">
+					<img class="small-image" src="./images/galeria/top2.png" />
+				</div>
+				<div class="item">
+					<img src="./images/galeria/top3.png" />
+				</div>
+			</div>
+			<div class="owl-carousel owl-theme gallery-bottom">
+				<div class="item">
+					<img class="small-image" src="./images/galeria/bottom1.png" />
+				</div>
+				<div class="item">
+					<img src="./images/galeria/bottom2.png" />
+				</div>
+				<div class="item">
+					<img class="small-image" src="./images/galeria/bottom3.png" />
+				</div>
+				<div class="item">
+					<img src="./images/galeria/bottom4.png" />
+				</div>
+			</div>
+		</section>
+
+		<section class="analysis-section">
+			<div class="container">
+				<h2>
+					Estratégias e interações dos atores nas cadeias: os casos emblemáticos
+					na soja, pecuária de corte e agricultura regenerativa como alternativa
+				</h2>
+				<p>
+					No contexto do surgimento dos acordos vigentes hoje, como a Moratória
+					da Soja na Amazônia e o Protocolo Verde de Grãos do Pará, bem como o
+					Termo de Ajustamento de Conduta (TAC) da Carne e o chamado Compromisso
+					Público da Carne, foram as organizações da sociedade civil e os
+					agentes públicos os protagonistas.
+				</p>
+				<p>
+					As indústrias processadoras têm alcançado um patamar de destaque,
+					tanto na implementação de sistemas de monitoramento mais inteligentes
+					quanto no trabalho de engajamento/articulação com seus fornecedores
+					diretos. Isso tem refletido em maior envolvimento e participação de
+					outros elos como as varejistas e instituições financeiras/bancos em
+					prol do combate ao desmatamento ilegal. Contudo, muito trabalho ainda
+					precisa ser feito, especialmente no caso dos fornecedores indiretos.
+				</p>
+				<p>
+					Olhando para oportunidades e caminhos futuros, a agricultura
+					regenerativa parece ser a grande aposta para introduzir práticas
+					sustentáveis que conseguem, a um só tempo, aumentar a produtividade,
+					diminuir os custos da produção, promover o reflorestamento e a
+					restauração da paisagem, diminuir a emissão de carbono e, ainda,
+					estimular a adoção de boas práticas sociais e agrícolas.
+				</p>
+				<p>
+					O caminho da agricultura regenerativa é um dos caminhos trilhado pela
+					cadeia do café, pois estimula a adoção de boas práticas sociais e
+					agrícolas, respondendo assim tanto às pressões de mercado para a
+					produção de alimentos de forma sustentável, atuando também como uma
+					estratégia de mitigação das mudanças climáticas.
+				</p>
+				<a class="see-more-btn" href="./estrategy.html"
+					>Clique para ver mais <img src="./images/arrow.svg" alt="Icone seta"
+				/></a>
+			</div>
+		</section>
+
+		<div class="background-image-container lake"></div>
+
+		<section id="conclusion">
+			<div class="container">
+				<h2>Conclusões e Recomendações</h2>
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<button
+							class="accordion-button"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							aria-expanded="true"
+							aria-controls="collapseOne"
+						>
+							Maior articulação entre os diferentes elos das cadeias e entre o
+							setor público e privado
+							<i class="fa fa-minus text-expanded"></i>
+							<i class="fa fa-plus text-collapsed"></i>
+						</button>
+						<div
+							id="collapseOne"
+							class="accordion-collapse collapse show"
+							aria-labelledby="headingOne"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<p>
+									Um cenário que pretende avanços contundentes, o que é
+									necessário e urgente de agora em diante, pressupõe, não apenas
+									a articulação do Estado com o setor privado, mas a união de
+									esforços internamente nestes setores. Isto é, as ações devem
+									superar a barreira privada de cada empresa e serem expandidas
+									para ações setoriais que articulem diferentes elos e
+									diferentes cadeias; assim como as ações estatais devem ser bem
+									coordenadas entre os níveis federativos.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo"
+							aria-expanded="false"
+							aria-controls="collapseTwo"
+						>
+							Melhorar a comunicação sobre os co-benefícios das boas práticas
+							<i class="fa fa-minus text-expanded"></i>
+							<i class="fa fa-plus text-collapsed"></i>
+						</button>
+						<div
+							id="collapseTwo"
+							class="accordion-collapse collapse"
+							aria-labelledby="headingTwo"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<p>
+									A ausência de uma unidade no que se refere aos conceitos e
+									definições, e mesmo nas regulações postas, que envolvem as
+									questões do desmatamento, são aspectos que impactam na
+									comunicação e tendem a fragmentar a atuação dos elos dessas
+									cadeias. Por outro lado, não há informação concreta e
+									suficiente sobre os benefícios da adoção de práticas mais
+									sustentáveis, como o uso de insumos agrícolas de origem
+									biológica ou a implementação de sistemas ILPF, por exemplo,
+									que reduziriam significativamente os custos de produção.
+									Embora a tecnologia e a inovação estejam presentes no mercado,
+									visando sobretudo o crescimento da produtividade, o produtor
+									rural não vê alternativas, hoje, que aumente sua
+									rentabilidade, senão expandir sua produção para novas áreas.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseThree"
+							aria-expanded="false"
+							aria-controls="collapseThree"
+						>
+							Avançar para uma abordagem mais territorial do problema
+							<i class="fa fa-minus text-expanded"></i>
+							<i class="fa fa-plus text-collapsed"></i>
+						</button>
+						<div
+							id="collapseThree"
+							class="accordion-collapse collapse"
+							aria-labelledby="headingThree"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<p>
+									Gibbs et al. (2015), Gollnow et al. (2018) e Virah-Sawmy
+									(2019) destacam que para além dos grãos, as ações voltadas
+									para o desmatamento zero deveriam ir além de um único produto.
+									Os autores citam, por exemplo, a necessidade de ampliar o
+									monitoramento para a produção de carne. Há uma dinâmica de
+									complexidade e interdependência envolvendo setores (soja e
+									pecuária) e regiões (Cerrado e Amazônia) (Sawyer, 2009; Silva
+									& Oliveira, 2018; Carvalho et al., 2019; Lima et al., 2019;
+									Marques et al., 2019; Waroux et al., 2019; Stabile et al.,
+									2020). Com a expansão do cultivo, outras atividades
+									agropecuárias, como a pecuária, seriam deslocadas para a
+									Amazônia gerando os chamados efeitos indiretos sobre o meio
+									ambiente e grupos locais. Além de ambíguo, o impacto
+									territorial das grandes lavouras tende a ser bastante
+									heterogêneo (Favareto et al., 2022). Deste modo, diferentes
+									cadeias e elos estariam conectadas em ações em prol de um
+									mesmo objetivo, o que além de potencializar os esforços
+									empenhados, pode ter impactos na otimização de custos do
+									processo de monitoramento, que é complexo e bastante oneroso.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="read-content">
+			<div>
+				<h4>Quer ler o conteúdo<br />completo?</h4>
+				<a
+					href="./CEBDS_CadeiasAgroalimentares.pdf"
+					download
+					target="_blank"
+					class="dowload-btn"
+					>Baixar o estudo
+					<span class="outline-button__lines">
+						<span
+							class="outline-button__line outline-button__line--horizontal outline-button__line--top"
+						></span>
+						<span
+							class="outline-button__line outline-button__line--vertical outline-button__line--right"
+						></span>
+						<span
+							class="outline-button__line outline-button__line--horizontal outline-button__line--bottom"
+						></span>
+						<span
+							class="outline-button__line outline-button__line--vertical outline-button__line--left"
+						></span>
+					</span>
+				</a>
+			</div>
+			<img src="./images/cebds.png" alt="Logo CEBDS" />
+		</section>
+
+		<script
+			language="JavaScript"
+			type="text/javascript"
+			src="./js/jquery.min.js"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/19290a9456.js"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			language="JavaScript"
+			type="text/javascript"
+			src="./js/owl.carousel.min.js"
+		></script>
+		<script
+			language="JavaScript"
+			type="text/javascript"
+			src="./js/aos.js"
+		></script>
+		<script
+			language="JavaScript"
+			type="text/javascript"
+			src="./js/main.js"
+		></script>
+	</body>
+</html>
